@@ -25,13 +25,16 @@
 - ### optimizer
   - Adam
 
-- ### 
+ 
 ## Evaluation metrics 
 ## Hyperparameters choices 
+- glorot weight initialization
 - relu_alpha = 0.2 (trial and error)
 - drop_out = 0.5 (network size too big to extract more features , values chosen by trial and error)
 
 ## TODO 
   - Augmentation -- RandomCrop
   - LearningRate(iteration) schedule
+  - he intialization
+  - batch normalization
   - try  Mask_RCNN, unsupervise masking(L_ACWE), Fast_SCNN
